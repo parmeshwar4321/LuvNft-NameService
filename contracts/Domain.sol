@@ -59,7 +59,7 @@ contract Domains is ERC721URIStorage {
           abi.encodePacked(
             '{"name": "',
             _name,
-            '", "description": "A domain on the Damn Name Service", "image": "data:image/svg+xml;base64,',
+            '", "description": "A domain on the Luv Name Service", "image": "data:image/svg+xml;base64,',
             Base64.encode(bytes(finalSvg)),
             '","length":"',
             strLen,
